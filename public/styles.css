@@ -546,6 +546,10 @@ video {
   margin-top: 30px;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
 .flex {
   display: flex;
 }
@@ -564,6 +568,14 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-\[50px\] {
@@ -606,6 +618,10 @@ video {
      object-fit: cover;
 }
 
+.p-\[10px\] {
+  padding: 10px;
+}
+
 .p-\[15px\] {
   padding: 15px;
 }
@@ -613,6 +629,16 @@ video {
 .px-\[20px\] {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .py-\[20px\] {
