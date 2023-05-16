@@ -609,6 +609,10 @@ video {
   background-color: rgb(46 52 208 / var(--tw-bg-opacity));
 }
 
+.bg-\[FEFEFE\] {
+  background-color: FEFEFE;
+}
+
 .bg-cover {
   background-size: cover;
 }
