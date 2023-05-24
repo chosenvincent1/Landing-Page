@@ -723,6 +723,10 @@ video {
   padding-bottom: 50px;
 }
 
+.pb-\[8px\] {
+  padding-bottom: 8px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -810,10 +814,6 @@ video {
 
   .md\:text-\[24px\] {
     font-size: 24px;
-  }
-
-  .md\:text-\[25px\] {
-    font-size: 25px;
   }
 
   .md\:text-\[36px\] {

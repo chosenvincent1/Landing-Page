@@ -75,6 +75,7 @@ minus1.addEventListener('click', ()=>{
     ans1.classList.add('hidden');
 });
 
+// QUESTION 2
 const plus2 = document.getElementById('plus2');
 const minus2 = document.getElementById('minus2');
 const ans2 = document.getElementById('ans2');
@@ -91,4 +92,118 @@ minus2.addEventListener('click', ()=>{
     plus2.classList.remove('hidden');
     plus2.classList.add('block');
     ans2.classList.add('hidden');
+});
+
+// QUESTION 3
+const plus3 = document.getElementById('plus3');
+const minus3 = document.getElementById('minus3');
+const ans3 = document.getElementById('ans3');
+plus3.addEventListener('click', ()=>{
+    plus3.classList.remove('block');
+    plus3.classList.add('hidden');
+    minus3.classList.remove('hidden');
+    minus3.classList.add('block');
+    ans3.classList.remove('hidden');
+});
+minus3.addEventListener('click', ()=>{
+    minus3.classList.remove('block');
+    minus3.classList.add('hidden');
+    plus3.classList.remove('hidden');
+    plus3.classList.add('block');
+    ans3.classList.add('hidden');
+});
+
+// QUESTION 4
+const plus4 = document.getElementById('plus4');
+const minus4 = document.getElementById('minus4');
+const ans4 = document.getElementById('ans4');
+plus4.addEventListener('click', ()=>{
+    plus4.classList.remove('block');
+    plus4.classList.add('hidden');
+    minus4.classList.remove('hidden');
+    minus4.classList.add('block');
+    ans4.classList.remove('hidden');
+});
+minus4.addEventListener('click', ()=>{
+    minus4.classList.remove('block');
+    minus4.classList.add('hidden');
+    plus4.classList.remove('hidden');
+    plus4.classList.add('block');
+    ans4.classList.add('hidden');
+});
+
+// QUESTION 5
+const plus5 = document.getElementById('plus5');
+const minus5 = document.getElementById('minus5');
+const ans5 = document.getElementById('ans5');
+plus5.addEventListener('click', ()=>{
+    plus5.classList.remove('block');
+    plus5.classList.add('hidden');
+    minus5.classList.remove('hidden');
+    minus5.classList.add('block');
+    ans5.classList.remove('hidden');
+});
+minus5.addEventListener('click', ()=>{
+    minus5.classList.remove('block');
+    minus5.classList.add('hidden');
+    plus5.classList.remove('hidden');
+    plus5.classList.add('block');
+    ans5.classList.add('hidden');
+});
+
+// QUESTION 6
+const plus6 = document.getElementById('plus6');
+const minus6 = document.getElementById('minus6');
+const ans6 = document.getElementById('ans6');
+plus6.addEventListener('click', ()=>{
+    plus6.classList.remove('block');
+    plus6.classList.add('hidden');
+    minus6.classList.remove('hidden');
+    minus6.classList.add('block');
+    ans6.classList.remove('hidden');
+});
+minus6.addEventListener('click', ()=>{
+    minus6.classList.remove('block');
+    minus6.classList.add('hidden');
+    plus6.classList.remove('hidden');
+    plus6.classList.add('block');
+    ans6.classList.add('hidden');
+});
+
+// QUESTION 7
+const plus7 = document.getElementById('plus7');
+const minus7 = document.getElementById('minus7');
+const ans7 = document.getElementById('ans7');
+plus7.addEventListener('click', ()=>{
+    plus7.classList.remove('block');
+    plus7.classList.add('hidden');
+    minus7.classList.remove('hidden');
+    minus7.classList.add('block');
+    ans7.classList.remove('hidden');
+});
+minus7.addEventListener('click', ()=>{
+    minus7.classList.remove('block');
+    minus7.classList.add('hidden');
+    plus7.classList.remove('hidden');
+    plus7.classList.add('block');
+    ans7.classList.add('hidden');
+});
+
+// QUESTION 7
+const plus8 = document.getElementById('plus8');
+const minus8 = document.getElementById('minus8');
+const ans8 = document.getElementById('ans8');
+plus8.addEventListener('click', ()=>{
+    plus8.classList.remove('block');
+    plus8.classList.add('hidden');
+    minus8.classList.remove('hidden');
+    minus8.classList.add('block');
+    ans8.classList.remove('hidden');
+});
+minus8.addEventListener('click', ()=>{
+    minus8.classList.remove('block');
+    minus8.classList.add('hidden');
+    plus8.classList.remove('hidden');
+    plus8.classList.add('block');
+    ans8.classList.add('hidden');
 });
